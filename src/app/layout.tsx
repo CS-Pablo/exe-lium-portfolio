@@ -5,6 +5,14 @@ import { Flex } from '@/once-ui/components'
 import classNames from 'classnames';
 import { Inter } from 'next/font/google'
 import { Source_Code_Pro } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
+
+const primary = Montserrat({
+    variable: '--font-primary',
+    subsets: ['latin'],
+    display: 'swap'
+});
+
 
 const primary = Inter({
 	variable: '--font-primary',
