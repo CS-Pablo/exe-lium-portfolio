@@ -14,11 +14,7 @@ const primary = Montserrat({
 });
 
 
-const primary = Inter({
-	variable: '--font-primary',
-	subsets: ['latin'],
-	display: 'swap',
-})
+
 
 type FontConfig = {
     variable: string;
